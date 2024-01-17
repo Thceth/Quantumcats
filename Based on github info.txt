@@ -1,0 +1,29 @@
+Based on the GitHub repository @ https://github.com/EthanHeilman/op_cat_draft/blob/main/cat.mediawiki
+
+What is OP_CAT
+
+OP_CAT is a proposed new opcode for TapScript, the scripting language used for smart contracts on the Bitcoin blockchain.
+
+What it does:
+
+OP_CAT allows concatenation of two values on the stack. In simpler terms, it takes two pieces of data, combines them into one, and then puts the combined data back on the stack.
+
+How it works:
+
+Two values are put on the TapScript stack (e.g., "Hello" and "World").
+The OP_CAT opcode is executed.
+The two values are combined ("HelloWorld").
+The combined value is pushed back onto the stack.
+Benefits:
+
+Simplifies script writing by providing a built-in way to combine data.
+Enables new script capabilities, such as creating unique identifiers or dynamically generating data.
+Makes TapScript more expressive and flexible.
+Current status:
+
+OP_CAT is still under development and currently in draft form. It hasn't been implemented in Bitcoin Core yet and requires community discussion and consensus before activation.
+
+Additional notes:
+
+The repository also includes discussions on potential use cases for OP_CAT, such as creating NFTs or building decentralized exchanges.
+OP_CAT has both potential benefits and drawbacks, so it's important to consider all sides before it's implemented.
